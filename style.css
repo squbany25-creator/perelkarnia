@@ -84,8 +84,8 @@ select { font-family: var(--font-body); }
 
 .nav__logo img {
     height: 165px;
-    margin-left: -62px;
-    margin-top: 2px;
+    margin-left: -50px;
+    margin-top: 15px;
     width: auto;
     max-width: 100%;
     object-fit: contain;
