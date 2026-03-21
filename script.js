@@ -715,7 +715,6 @@ function openProductDetail(id) {
             ? `<button class="pdetail__btn pdetail__btn--sold" disabled>Sprzedane</button>`
             : `<a href="${p.vinted_url}" target="_blank" rel="noopener noreferrer" class="pdetail__btn">Kup na Vinted ↗</a>`
           }
-          <p class="pdetail__bundle-note">🛍️ Kup 2+ sztuki z naszego profilu i zapłać <strong>5% mniej</strong></p>
         </div>
       </div>
     </div>
