@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Perełkarnia — Vintage Streetwear</title>
+  <meta name="description" content="Unikalne ubrania vintage z drugiej ręki. Nowy drop co tydzień. Sprzedaż przez Vinted." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Mono:wght@400;500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <a href="index.html" class="nav__logo">><img src="perelkarnia1.png" alt="perełkarnia"></a>
+    <div class="nav__links">
+      <a href="#produkty">Drop</a>
+      <a href="#social">Socials</a>
+      <a href="https://vinted.pl" target="_blank" class="nav__cta">Profil Vinted ↗</a>
+    </div>
+    <button class="nav__burger" id="burger" aria-label="menu" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+  </nav>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#produkty" class="mm__link">Drop</a>
+    <a href="#social" class="mm__link">Socials</a>
+    <a href="https://vinted.pl" target="_blank" class="mm__link">Profil Vinted ↗</a>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero__noise"></div>
+    <div class="hero__floating-cards" id="heroFloatingCards">
+      <div class="hero__card-stack" id="heroCardStack">
+        <!-- cards inserted by JS -->
+      </div>
+    </div>
+
+    <div class="hero__ticker" aria-hidden="true">
+      <div class="ticker__inner">
+        <span>NOWY DROP</span><span>★</span><span>VINTAGE STREETWEAR</span><span>★</span>
+        <span>RZESZÓW</span><span>★</span><span>VINTED</span><span>★</span>
+        <span>NOWY DROP</span><span>★</span><span>VINTAGE STREETWEAR</span><span>★</span>
+        <span>RZESZÓW</span><span>★</span><span>VINTED</span><span>★</span>
+        <span>NOWY DROP</span><span>★</span><span>VINTAGE STREETWEAR</span><span>★</span>
+        <span>RZESZÓW</span><span>★</span><span>VINTED</span><span>★</span>
+      </div>
+    </div>
+
+    <div class="hero__content">
+      <div class="hero__label reveal">— Rzeszów · PL · 2026 —</div>
+      <h1 class="hero__headline reveal">
+        <span class="hero__fire">NOWY</span><br />
+        <span class="hero__outline">DROP</span>
+        <span class="hero__emoji">🔥</span>
+      </h1>
+      <p class="hero__sub reveal">Unikalne ubrania vintage z drugiej ręki.<br />Sezonowe perełki, markowy streetwear.</p>
+      <a href="#produkty" class="btn btn--primary reveal">Zobacz drop</a>
+    </div>
+
+    <div class="hero__stats reveal">
+      <div class="hero__stat">
+        <div class="stat__row"><span class="stat__num" data-target="100">0</span><span class="stat__suffix">+</span></div>
+        <span class="stat__label">sprzedanych</span>
+      </div>
+      <div class="hero__stat">
+        <div class="stat__row"><span class="stat__num" data-target="48">0</span><span class="stat__suffix">h</span></div>
+        <span class="stat__label">max wysyłka</span>
+      </div>
+      <div class="hero__stat">
+        <div class="stat__row"><span class="stat__num" data-target="5">0</span><span class="stat__suffix">★</span></div>
+        <span class="stat__label">ocena</span>
+      </div>
+    </div>
+
+    <div class="hero__scroll" aria-hidden="true">
+      <div class="scroll__line"></div>
+      <span>SCROLL</span>
+    </div>
+  </section>
+
+  <!-- TRUST BAR -->
+  <section class="trust">
+    <div class="trust__bar">
+      <div class="trust__item"><span class="trust__icon">⚡</span> Szybka wysyłka w 48h</div>
+      <div class="trust__sep">·</div>
+      <div class="trust__item"><span class="trust__icon">🔍</span> Sprawdzone perełki</div>
+      <div class="trust__sep">·</div>
+      <div class="trust__item"><span class="trust__icon">🛍️</span> Kup 2 sztuki — zaoszczędź 5%</div>
+      <div class="trust__sep">·</div>
+      <div class="trust__item"><span class="trust__icon">💌</span> Estetyczne pakowanie</div>
+    </div>
+  </section>
+
+  <!-- PRODUCTS -->
+  <section class="products" id="produkty">
+    <div class="products__header">
+      <div class="products__label reveal">AKTUALNY DROP</div>
+      <div class="products__title-row reveal">
+        <h2 class="products__title">Świeże znaleziska</h2>
+        <div class="adv-filter" id="advFilter">
+          <button class="adv-filter__toggle" id="advFilterToggle">
+            <div class="adv-filter__icon"><span></span><span></span><span></span></div>
+            <span class="adv-filter__label">Filtry</span>
+            <span class="adv-filter__count" id="advFilterCount">0</span>
+          </button>
+          <div class="adv-filter__panel" id="advFilterPanel">
+            <div class="adv-filter__inner">
+              <div>
+                <div class="adv-filter__group-title">Marka</div>
+                <div class="adv-filter__chips" id="brandChips"></div>
+              </div>
+              <div>
+                <div class="adv-filter__group-title">Styl</div>
+                <div class="adv-filter__chips" id="styleChips"></div>
+              </div>
+              <div>
+                <div class="adv-filter__group-title">Rozmiar</div>
+                <div class="adv-filter__chips" id="sizeChips"></div>
+              </div>
+            </div>
+            <div class="adv-filter__clear">
+              <button class="adv-filter__clear-btn" id="advFilterClear">Wyczyść filtry ✕</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="products__controls reveal">
+        <div class="filter__group">
+          <button class="filter__btn active" data-filter="all">Wszystkie</button>
+          <button class="filter__btn" data-filter="bluzy">Bluzy</button>
+          <button class="filter__btn" data-filter="kurtki">Kurtki</button>
+          <button class="filter__btn" data-filter="koszulki">Koszulki</button>
+          <button class="filter__btn" data-filter="inne">Inne</button>
+          <button class="filter__btn filter__btn--sale" data-filter="sale">🏷️ Sale</button>
+        </div>
+        <div class="sort__group">
+          <select class="sort__select" id="sortSelect">
+            <option value="default">Sortuj: Domyślnie</option>
+            <option value="price-asc">Cena: od najniższej</option>
+            <option value="price-desc">Cena: od najwyższej</option>
+            <option value="newest">Najnowsze</option>
+            <option value="sale">Wyprzedaż</option>
+          </select>
+          <div class="price-range">
+            <span class="price-range__label">Cena:</span>
+            <input type="number" class="price-range__input" id="priceMin" placeholder="od" min="0" />
+            <span class="price-range__sep">–</span>
+            <input type="number" class="price-range__input" id="priceMax" placeholder="do" min="0" />
+            <button class="price-range__btn" id="priceApply">OK</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="products__grid" id="productsGrid"></div>
+    <div class="products__empty" id="productsEmpty" style="display:none;">
+      <p>Brak produktów w tej kategorii.<br />Sprawdź wkrótce — nowy drop co tydzień!</p>
+    </div>
+  </section>
+
+  <!-- DROP SECTION -->
+  <section class="drop-section" id="drop">
+    <div class="drop__inner">
+      <div class="drop__left reveal">
+        <div class="drop__label">NOWY DROP</div>
+        <h2 class="drop__title">Co tydzień.<br />Bez powtórek.</h2>
+        <p class="drop__text">Każdy czwartek nowa partia. Odwiedzamy lumpeksy Rzeszowa i wybieramy tylko to, co faktycznie warto nosić.</p>
+        <a href="https://vinted.pl" target="_blank" class="btn btn--white">Obserwuj nas na Vinted ↗</a>
+      </div>
+      <div class="drop__right reveal">
+        <div class="drop__countdown">
+          <div class="drop__countdown-label">Następny drop za:</div>
+          <div class="countdown__grid">
+            <div class="countdown__unit"><span class="countdown__num" id="cdDays">--</span><span class="countdown__lab">DNI</span></div>
+            <div class="countdown__sep">:</div>
+            <div class="countdown__unit"><span class="countdown__num" id="cdHours">--</span><span class="countdown__lab">GODZ</span></div>
+            <div class="countdown__sep">:</div>
+            <div class="countdown__unit"><span class="countdown__num" id="cdMins">--</span><span class="countdown__lab">MIN</span></div>
+            <div class="countdown__sep">:</div>
+            <div class="countdown__unit"><span class="countdown__num" id="cdSecs">--</span><span class="countdown__lab">SEK</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section class="reviews" id="reviews">
+    <div class="reviews__inner">
+      <div class="reviews__label reveal">OPINIE KUPUJĄCYCH</div>
+      <h2 class="reviews__title reveal">Co mówią klienci</h2>
+      <div class="reviews__grid reveal" id="reviewsGrid"></div>
+      <button class="reviews__more-btn" id="reviewsMoreBtn" style="display:none;">
+        Zobacz wszystkie opinie ↓
+      </button>
+    </div>
+  </section>
+
+  <!-- SOLD -->
+  <section class="sold-section" id="soldSection">
+    <div class="sold-section__inner">
+      <div class="sold-section__label reveal">ARCHIWUM</div>
+      <h2 class="sold-section__title reveal">Sprzedane Perełki</h2>
+      <p class="sold-section__sub reveal">Historia znalezisk, które trafiły do nowych domów.</p>
+      <div class="sold-grid reveal" id="soldGrid"></div>
+      <button class="sold__more-btn" id="soldMoreBtn" style="display:none;">
+        Zobacz wszystkie sprzedane ↓
+      </button>
+    </div>
+  </section>
+
+  <!-- SOCIAL -->
+  <section class="social" id="social">
+    <div class="social__inner">
+      <div class="social__label reveal">ZNAJDŹ NAS</div>
+      <h2 class="social__title reveal">Obserwuj nas</h2>
+      <p class="social__sub reveal">Za kulisami lumpeksów, paczki, haule i nowe znaleziska co tydzień.</p>
+      <div class="social__cards reveal">
+        <a href="https://tiktok.com/@perelkarnia" target="_blank" class="social__card social__card--tiktok">
+          <div class="social__card-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V8.69a8.27 8.27 0 004.84 1.55V6.79a4.85 4.85 0 01-1.07-.1z"/></svg></div>
+          <div class="social__card-name">TikTok</div><div class="social__card-handle">@perelkarnia</div>
+          <div class="social__card-arrow">↗</div>
+        </a>
+        <a href="https://instagram.com/perelkarnia" target="_blank" class="social__card social__card--instagram">
+          <div class="social__card-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></div>
+          <div class="social__card-name">Instagram</div><div class="social__card-handle">@perelkarnia</div>
+          <div class="social__card-arrow">↗</div>
+        </a>
+        <a href="https://youtube.com/@perelkarnia" target="_blank" class="social__card social__card--youtube">
+          <div class="social__card-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg></div>
+          <div class="social__card-name">YouTube</div><div class="social__card-handle">@perelkarnia</div>
+          <div class="social__card-arrow">↗</div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <div class="footer__logo">PEREŁKARNIA</div>
+          <p class="footer__tagline">Vintage streetwear z Rzeszowa.<br />Sprzedaż odbywa się przez platformę Vinted.</p>
+        </div>
+        <div class="footer__nav">
+          <div class="footer__col">
+            <div class="footer__col-title">Sklep</div>
+            <a href="#produkty">Aktualny drop</a>
+            <a href="https://vinted.pl" target="_blank">Profil Vinted</a>
+          </div>
+          <div class="footer__col">
+            <div class="footer__col-title">Informacje</div>
+            <a href="regulamin.html">Regulamin</a>
+            <a href="polityka.html">Polityka prywatności</a>
+          </div>
+          <div class="footer__col">
+            <div class="footer__col-title">Social</div>
+            <a href="https://tiktok.com/@perelkarnia" target="_blank">TikTok</a>
+            <a href="https://instagram.com/perelkarnia" target="_blank">Instagram</a>
+            <a href="https://youtube.com/@perelkarnia" target="_blank">YouTube</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>© 2026 Perełkarnia. Wszelkie prawa zastrzeżone.</span>
+        <span>Sprzedaż przez <a href="https://vinted.pl" target="_blank">Vinted.pl</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- REVIEWS MODAL -->
+  <div class="reviews-modal" id="reviewsModal" role="dialog" aria-modal="true">
+    <div class="reviews-modal__inner">
+      <div class="reviews-modal__header">
+        <div class="reviews-modal__title">Wszystkie opinie</div>
+        <div class="reviews-modal__controls">
+          <select class="reviews-modal__sort" id="reviewsModalSort">
+            <option value="default">Sortuj: Domyślnie</option>
+            <option value="stars-desc">Ocena: od najwyższej</option>
+            <option value="stars-asc">Ocena: od najniższej</option>
+            <option value="likes">Najbardziej pomocne</option>
+          </select>
+          <button class="reviews-modal__close" id="reviewsModalClose">✕</button>
+        </div>
+      </div>
+      <div class="reviews-modal__list" id="reviewsModalList"></div>
+    </div>
+  </div>
+
+  <!-- SOLD MODAL -->
+  <div class="sold-modal" id="soldModal" role="dialog" aria-modal="true">
+    <div class="sold-modal__inner">
+      <div class="sold-modal__header">
+        <div class="sold-modal__title">Sprzedane Perełki</div>
+        <button class="sold-modal__close" id="soldModalClose">✕</button>
+      </div>
+      <div class="sold-modal__grid" id="soldModalGrid"></div>
+    </div>
+  </div>
+
+  <!-- PRODUCT DETAIL PAGE OVERLAY -->
+  <div class="pdetail" id="pdetail" role="dialog" aria-modal="true" aria-label="Szczegóły produktu">
+    <div class="pdetail__inner" id="pdetailInner"></div>
+  </div>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true">
+    <button class="lightbox__close" id="lightboxClose" aria-label="Zamknij">✕</button>
+    <button class="lightbox__nav lightbox__nav--prev" id="lbPrev">‹</button>
+    <img class="lightbox__img" id="lightboxImg" src="" alt="" />
+    <button class="lightbox__nav lightbox__nav--next" id="lbNext">›</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
