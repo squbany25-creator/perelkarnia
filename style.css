@@ -394,7 +394,6 @@ select { font-family: var(--font-body); }
 .pdetail__btn:hover { background: var(--white); }
 .pdetail__btn:active { transform: scale(0.98); }
 .pdetail__btn--sold { background: var(--gray-2); color: var(--gray-4); cursor: not-allowed; pointer-events: none; }
-.pdetail__bundle-note { font-family: var(--font-mono); font-size: 0.7rem; letter-spacing: 0.06em; color: var(--accent); text-align: center; line-height: 1.5; }
 
 /* ═══ DROP SECTION ═══ */
 .drop-section { background: var(--white); color: var(--black); padding: 80px 32px; }
