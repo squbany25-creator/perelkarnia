@@ -5,7 +5,6 @@
    ══════════════════════════════════════════════════════════ */
 
 const PRODUCTS = [
-   /*
   {
     id: 1,
     name: "Nike Swoosh Bluza Oversize L",
@@ -28,7 +27,7 @@ const PRODUCTS = [
     vinted_url: "https://www.vinted.pl",
     added: "2026-01-15",
     views: 34,
-  },*/
+  },
 ];
 
 /* ══════════════════════════════════════════════════════════
@@ -52,15 +51,15 @@ const SIZES  = ["XS", "S", "M", "L", "XL", "XXL", "Oversize"];
    likes     – liczba lajków
    ══════════════════════════════════════════════════════════ */
 const REVIEWS = [
-  /*{
+  {
     id: 1,
-    name: "Kasia M.",
-    avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&q=80",
+    name: "Perełkarnia",
+    avatar: "perelkarnia1.png?w=100&q=80",
     stars: 5,
-    comment: "Mega szybka wysyłka, bluza dokładnie taka jak na zdjęciach. Widać że sprzedający podchodzi do tego z sercem — ładnie zapakowane, wszystko ok. Polecam!",
-    date: "15.01.2026",
-    likes: 12,
-  }*/
+    comment: "Bądź pierwszą osobą która wystawi nam opinie!",
+    date: "23.03.2026",
+    likes: 0,
+  }
 ];
 
 /* ══ COUNTDOWN TARGET (auto: najbliższy czwartek 18:00) ══ */
