@@ -4,7 +4,8 @@
    BAZA PRODUKTÓW — edytuj tutaj
    ══════════════════════════════════════════════════════════ */
 
-/*const PRODUCTS = [
+const PRODUCTS = [
+   /*
   {
     id: 1,
     name: "Nike Swoosh Bluza Oversize L",
@@ -27,8 +28,8 @@
     vinted_url: "https://www.vinted.pl",
     added: "2026-01-15",
     views: 34,
-  },
-];*/
+  },*/
+];
 
 /* ══════════════════════════════════════════════════════════
    ADVANCED FILTER OPTIONS — edytuj tutaj
@@ -50,8 +51,8 @@ const SIZES  = ["XS", "S", "M", "L", "XL", "XXL", "Oversize"];
    date      – data w formacie "DD.MM.YYYY"
    likes     – liczba lajków
    ══════════════════════════════════════════════════════════ */
-/*const REVIEWS = [
-  {
+const REVIEWS = [
+  /*{
     id: 1,
     name: "Kasia M.",
     avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&q=80",
@@ -59,8 +60,8 @@ const SIZES  = ["XS", "S", "M", "L", "XL", "XXL", "Oversize"];
     comment: "Mega szybka wysyłka, bluza dokładnie taka jak na zdjęciach. Widać że sprzedający podchodzi do tego z sercem — ładnie zapakowane, wszystko ok. Polecam!",
     date: "15.01.2026",
     likes: 12,
-  }
-];*/
+  }*/
+];
 
 /* ══ COUNTDOWN TARGET (auto: najbliższy czwartek 18:00) ══ */
 const NEXT_DROP_DATE = (() => {
