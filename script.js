@@ -184,7 +184,7 @@ const PRODUCTS = [
 /* ══════════════════════════════════════════════════════════
    ADVANCED FILTER OPTIONS — edytuj tutaj
    ══════════════════════════════════════════════════════════ */
-const BRANDS = ["Nike", "Adidas", "Champion", "The North Face", "Columbia", "Ralph Lauren", "Levi's", "Tommy Hilfiger", "Carhartt", "Stüssy", "Supreme", "Patagonia"];
+const BRANDS = ["Nike", "Adidas", "Romwe", "Hugo boss", "Champion", "The North Face", "Columbia", "Ralph Lauren", "Levi's", "Tommy Hilfiger", "Carhartt", "Stüssy", "Supreme", "Patagonia"];
 const STYLES = ["streetwear", "vintage", "y2k", "gorpcore", "workwear", "casual", "outdoor", "sportswear", "retro"];
 const SIZES  = ["XS", "S", "M", "L", "XL", "XXL", "Oversize"];
 
