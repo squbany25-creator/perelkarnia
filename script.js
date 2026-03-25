@@ -5,36 +5,37 @@
    ══════════════════════════════════════════════════════════ */
 
 const PRODUCTS = [
-  /*{
+  {
     id: 1,
-    name: "Nike Swoosh Bluza Oversize L",
-    brand: "Nike",
+    name: "Carhartt Koszula Kurtka Granatowa L Workwear Vintage Streetwear",
+    brand: "Carhartt",
     category: "bluzy",
     size: "L",
-    style: ["streetwear", "vintage"],
-    price: 59,
+    style: ["streetwear", "vintage", "workwear"],
+    price: 219.99,
     salePrice: null,
     condition: "Bardzo dobry",
-    tags: ["vintage", "oversize", "nike"],
+    tags: ["vintage", "oversize", "carhartt"],
     badge: "new",
     sold: false,
-    description: "Klasyczna bluza Nike z kultowym logo Swoosh. Oversize fit idealny na lata 90s streetwear. Miękka bawełna, kaptur z regulacją, kieszeń kangurka. Bez żadnych plam ani uszkodzeń.",
+    description: "Kultowa koszula-kurtka Carhartt w głębokim granatowym kolorze. Charakterystyczna łatka Carhartt na kieszeni piersiowej, guziki na całej długości, podwójne szwy znak rozpoznawczy marki.",
     images: [
-      "https://images.unsplash.com/photo-1556821840-3a63f15732ce?w=800&q=80",
-      "https://images.unsplash.com/photo-1620799140188-3b2a02fd9a77?w=800&q=80",
-      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=800&q=80",
+      "1-1.png?w=800&q=80",
+      "1-2.png?w=800&q=80",
+      "1-3.png?w=800&q=80",
+      "1-4.png?w=800&q=80"
     ],
-    vinted_url: "https://www.vinted.pl",
-    added: "2026-01-15",
-    views: 34,
-  }*/
+    vinted_url: "https://www.vinted.pl/items/8478856334-carhartt-koszula-kurtka-granatowa-l-workwear-vintage-streetwear",
+    added: "2026-03-25",
+    views: 23,
+  }
 ];
 
 /* ══════════════════════════════════════════════════════════
    ADVANCED FILTER OPTIONS — edytuj tutaj
    ══════════════════════════════════════════════════════════ */
 const BRANDS = ["Nike", "Adidas", "Champion", "The North Face", "Columbia", "Ralph Lauren", "Levi's", "Tommy Hilfiger", "Carhartt", "Stüssy", "Supreme", "Patagonia"];
-const STYLES = ["streetwear", "vintage", "y2k", "gorpcore", "preppy", "casual", "outdoor", "grunge", "minimalist"];
+const STYLES = ["streetwear", "vintage", "y2k", "gorpcore", "workwear", "casual", "outdoor", "grunge", "minimalist"];
 const SIZES  = ["XS", "S", "M", "L", "XL", "XXL", "Oversize"];
 
 /* ══════════════════════════════════════════════════════════
