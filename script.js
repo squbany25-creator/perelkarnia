@@ -20,10 +20,11 @@ const PRODUCTS = [
     sold: false,
     description: "Kultowa koszula-kurtka Carhartt w głębokim granatowym kolorze. Charakterystyczna łatka Carhartt na kieszeni piersiowej, guziki na całej długości, podwójne szwy znak rozpoznawczy marki.",
     images: [
-      "https://imgur.com/7Orpi3s?w=800&q=80",
-      "https://imgur.com/eupJPq6?w=800&q=80",
-      "https://imgur.com/GazXrCi?w=800&q=80",
-      "https://imgur.com/rzGVvsb?w=800&q=80"
+      "photos/4-1.png?w=800&q=80",
+      "photos/4-2.png?w=800&q=80",
+      "photos/4-3.png?w=800&q=80",
+      "photos/4-4.png?w=800&q=80",
+      "photos/5-4.png?w=800&q=80",
     ],
     vinted_url: "https://www.vinted.pl/items/8478856334-carhartt-koszula-kurtka-granatowa-l-workwear-vintage-streetwear",
     added: "2026-03-25",
