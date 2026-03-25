@@ -28,7 +28,32 @@ const PRODUCTS = [
     ],
     vinted_url: "https://www.vinted.pl/items/8478856334-carhartt-koszula-kurtka-granatowa-l-workwear-vintage-streetwear",
     added: "2026-03-25",
-    views: 23,
+    views: 0,
+  },
+     {
+    id: 2,
+    name: "Koszulka Acid Wash Gothic Anime Dark Aesthetic Grunge M Oversize Vintage",
+    brand: "Romwe",
+    category: "koszulka",
+    size: "M",
+    style: ["streetwear", "vintage", "gorpcore"],
+    price: 69.99,
+    salePrice: null,
+    condition: "Bardzo dobry",
+    tags: ["vintage", "oversize", "romwe"],
+    badge: "new",
+    sold: false,
+    description: "Klimatyczna koszulka w stylu dark anime / gothic streetwear. Acid wash efekt na czarnej bawełnie, charakterystyczne przebarwienia są celowym elementem designu, nie wadą. Duża grafika anime z motywami dark fantasy na przodzie.",
+    images: [
+      "photos/4-1.png?w=800&q=80",
+      "photos/4-2.png?w=800&q=80",
+      "photos/4-3.png?w=800&q=80",
+      "photos/4-4.png?w=800&q=80",
+      "photos/4-5.png?w=800&q=80",
+    ],
+    vinted_url: "https://www.vinted.pl/items/8478755366-koszulka-acid-wash-gothic-anime-dark-aesthetic-grunge-m-oversize-vintage",
+    added: "2026-03-25",
+    views: 0,
   }
 ];
 
