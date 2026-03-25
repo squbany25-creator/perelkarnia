@@ -24,7 +24,7 @@ const PRODUCTS = [
       "photos/4-2.png?w=800&q=80",
       "photos/4-3.png?w=800&q=80",
       "photos/4-4.png?w=800&q=80",
-      "photos/5-4.png?w=800&q=80",
+      "photos/4-5.png?w=800&q=80",
     ],
     vinted_url: "https://www.vinted.pl/items/8478856334-carhartt-koszula-kurtka-granatowa-l-workwear-vintage-streetwear",
     added: "2026-03-25",
