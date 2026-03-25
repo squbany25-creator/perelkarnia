@@ -135,7 +135,7 @@ const PRODUCTS = [
     name: "4F Kurtka Softshell Narciarska Czarna Różowa M Outdoor Zimowa",
     brand: "4F",
     category: "kurtki",
-    size: "L",
+    size: "M",
     style: ["sportswear", "casual", "outdoor"],
     price: 49.0,
     salePrice: null,
