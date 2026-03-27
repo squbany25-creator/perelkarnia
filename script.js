@@ -142,7 +142,7 @@ const PRODUCTS = [
     condition: "Bardzo dobry",
     tags: ["vintage", "oversize", "adidas"],
     badge: "new",
-    sold: false,
+    sold: true,
     description: "Kurtka 4F z polarem w środku idealna jako kurtka narciarska, snowboardowa lub outdoor na chłodniejsze dni. Czarny zewnętrzny materiał z różowymi akcentami i suwakiem. Kaptur z regulacją, liczne kieszenie z zamkami.",
     images: [
       "photos/6-1.png?w=800&q=80",
