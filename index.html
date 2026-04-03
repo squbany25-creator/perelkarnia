@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Perełkarnia — Vintage Streetwear</title>
+  <title>Perełkarnia</title>
   <meta name="description" content="Unikalne ubrania vintage z drugiej ręki. Nowy drop co tydzień. Sprzedaż przez Vinted." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -34,11 +34,6 @@
   <!-- HERO -->
   <section class="hero" id="hero">
     <div class="hero__noise"></div>
-    <div class="hero__floating-cards" id="heroFloatingCards">
-      <div class="hero__card-stack" id="heroCardStack">
-        <!-- cards inserted by JS -->
-      </div>
-    </div>
 
     <div class="hero__ticker" aria-hidden="true">
       <div class="ticker__inner">
@@ -62,19 +57,12 @@
       <a href="#produkty" class="btn btn--primary reveal">Zobacz drop</a>
     </div>
 
-    <div class="hero__stats reveal">
-      <div class="hero__stat">
-        <div class="stat__row"><span class="stat__num" data-target="500">0</span><span class="stat__suffix">+</span></div>
-        <span class="stat__label">sprzedanych</span>
+    <!-- SHOWCASE SLIDESHOW (right side) -->
+    <div class="hero__showcase-wrap">
+      <div class="showcase__inner" id="heroShowcase">
+        <!-- slides inserted by JS -->
       </div>
-      <div class="hero__stat">
-        <div class="stat__row"><span class="stat__num" data-target="24">0</span><span class="stat__suffix">h</span></div>
-        <span class="stat__label">max wysyłka</span>
-      </div>
-      <div class="hero__stat">
-        <div class="stat__row"><span class="stat__num" data-target="5">0</span><span class="stat__suffix">★</span></div>
-        <span class="stat__label">ocena</span>
-      </div>
+      <div class="showcase__dots" id="showcaseDots"></div>
     </div>
 
     <div class="hero__scroll" aria-hidden="true">
@@ -183,6 +171,35 @@
             <div class="countdown__unit"><span class="countdown__num" id="cdSecs">--</span><span class="countdown__lab">SEK</span></div>
           </div>
         </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- STATS BAR -->
+  <section class="stats-bar">
+    <div class="stats-bar__inner reveal">
+      <div class="stats-bar__item">
+        <div class="stats-bar__icon">📦</div>
+        <div class="stats-bar__num-row">
+          <span class="stat__num" data-target="500">0</span><span class="stats-bar__suf">+</span>
+        </div>
+        <div class="stats-bar__label">Sprzedaży</div>
+      </div>
+      <div class="stats-bar__divider"></div>
+      <div class="stats-bar__item">
+        <div class="stats-bar__icon">⚡</div>
+        <div class="stats-bar__num-row">
+          <span class="stat__num" data-target="24">0</span><span class="stats-bar__suf">h</span>
+        </div>
+        <div class="stats-bar__label">Czas wysyłki</div>
+      </div>
+      <div class="stats-bar__divider"></div>
+      <div class="stats-bar__item">
+        <div class="stats-bar__icon">⭐</div>
+        <div class="stats-bar__num-row">
+          <span class="stat__num" data-target="5">0</span><span class="stats-bar__suf">★</span>
+        </div>
+        <div class="stats-bar__label">Ocena</div>
       </div>
     </div>
   </section>

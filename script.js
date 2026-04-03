@@ -7,184 +7,250 @@
 const PRODUCTS = [
   {
     id: 1,
-    name: "Carhartt Koszula Kurtka Granatowa L Workwear Vintage Streetwear",
+    name: "Carhartt Koszula-Kurtka Granatowa",
     brand: "Carhartt",
-    category: "bluzy",
+    category: "inne",
     size: "L",
-    style: ["streetwear", "vintage", "workwear"],
-    price: 219.0,
-    salePrice: null,
+    price: 188.99,
+    salePrice: 219.99,
     condition: "Bardzo dobry",
-    tags: ["vintage", "oversize", "carhartt"],
+    tags: ["vintage", "L", "carhartt"],
     badge: "new",
     sold: false,
     description: "Kultowa koszula-kurtka Carhartt w głębokim granatowym kolorze. Charakterystyczna łatka Carhartt na kieszeni piersiowej, guziki na całej długości, podwójne szwy znak rozpoznawczy marki.",
     images: [
-      "photos/4-1.png?w=800&q=80",
-      "photos/4-2.png?w=800&q=80",
-      "photos/4-3.png?w=800&q=80",
-      "photos/4-4.png?w=800&q=80",
-      "photos/4-5.png?w=800&q=80",
+      "photos/1-0.png?w=800&q=80",
+      "photos/1-1.jpg?w=800&q=80",
+      "photos/1-2.jpg?w=800&q=80",
+      "photos/1-3.jpg?w=800&q=80",
+      "photos/1-4.jpg?w=800&q=80",
+      "photos/1-5.jpg?w=800&q=80",
     ],
     vinted_url: "https://www.vinted.pl/items/8478856334-carhartt-koszula-kurtka-granatowa-l-workwear-vintage-streetwear",
     added: "2026-03-25",
-    views: 0,
   },
   {
     id: 2,
-    name: "Koszulka Acid Wash Gothic Anime Dark Aesthetic Grunge M Oversize Vintage",
-    brand: "Romwe",
-    category: "koszulki",
-    size: "M",
-    style: ["streetwear", "vintage", "gorpcore"],
-    price: 69.0,
-    salePrice: null,
-    condition: "Bardzo dobry",
-    tags: ["vintage", "oversize", "romwe"],
-    badge: "new",
-    sold: false,
-    description: "Klimatyczna koszulka w stylu dark anime / gothic streetwear. Acid wash efekt na czarnej bawełnie, charakterystyczne przebarwienia są celowym elementem designu, nie wadą. Duża grafika anime z motywami dark fantasy na przodzie.",
-    images: [
-      "photos/1-1.png?w=800&q=80",
-      "photos/1-2.png?w=800&q=80",
-      "photos/1-3.png?w=800&q=80",
-      "photos/1-4.png?w=800&q=80"
-    ],
-    vinted_url: "https://www.vinted.pl/items/8478755366-koszulka-acid-wash-gothic-anime-dark-aesthetic-grunge-m-oversize-vintage",
-    added: "2026-03-25",
-    views: 0,
-  },
-  {
-    id: 3,
-    name: "Adidas Spodnie Dresowe Czarne 3 Paski Vintage Sportswear Retro",
-    brand: "Adidas",
-    category: "inne",
-    size: "M",
-    style: ["retro", "vintage", "sportwear"],
-    price: 49.0,
-    salePrice: null,
-    condition: "Bardzo dobry",
-    tags: ["vintage", "oversize", "romwe"],
-    badge: "new",
-    sold: false,
-    description: "Klasyczne spodnie dresowe Adidas z charakterystycznymi białymi paskami na nogawkach i bordowym sznurkiem. Lekki, przewiewny materiał idealne na trening lub codzienną stylizację sportową.",
-    images: [
-      "photos/2-1.png?w=800&q=80",
-      "photos/2-2.png?w=800&q=80",
-      "photos/2-3.png?w=800&q=80",
-      "photos/2-4.png?w=800&q=80",
-      "photos/2-5.png?w=800&q=80",
-      "photos/2-6.png?w=800&q=80",
-    ],
-    vinted_url: "https://www.vinted.pl/items/8478798624-adidas-spodnie-dresowe-czarne-3-paski-vintage-sportswear-retro",
-    added: "2026-03-25",
-    views: 0,
-  },
-  {
-    id: 4,
-    name: "Adidas Track Jacket Szara Czarna Vintage Sportswear Retro Zip L/XL",
-    brand: "Adidas",
-    category: "bluzy",
-    size: "L",
-    style: ["streetwear", "vintage", "sportswear"],
-    price: 59.0,
-    salePrice: null,
-    condition: "Bardzo dobry",
-    tags: ["vintage", "oversize", "adidas"],
-    badge: "new",
-    sold: false,
-    description: "Klasyczna bluza rozpinana Adidas w szaro-czarnym colorblock. Dwa boczne zamki kieszeniowe, wysoki kołnierz, ściągacz na dole charakterystyczny retro sportswear look.",
-    images: [
-      "photos/3-1.png?w=800&q=80",
-      "photos/3-2.png?w=800&q=80",
-      "photos/3-3.png?w=800&q=80",
-      "photos/3-4.png?w=800&q=80",
-      "photos/3-5.png?w=800&q=80",
-    ],
-    vinted_url: "https://www.vinted.pl/items/8478832226-adidas-track-jacket-szara-czarna-vintage-sportswear-retro-zip-lxl",
-    added: "2026-03-25",
-    views: 0,
-  },
-  {
-    id: 5,
-    name: "Nike Windbreaker Kurtka Beżowa Sand Vintage 90s Haft Swoosh Retro",
-    brand: "Nike",
-    category: "kurtki",
-    size: "XL",
-    style: ["retro", "vintage", "sportswear"],
-    price: 99.0,
-    salePrice: null,
-    condition: "Bardzo dobry",
-    tags: ["vintage", "oversize", "nike"],
-    badge: "new",
-    sold: false,
-    description: "Rzadki Nike Windbreaker w kolorze sand/beige jeden z najmodniejszych kolorów sezonu. Haftowany Swoosh w odcieniu brązowym (nie druk!) znak autentyczności i wyższej jakości wykonania.",
-    images: [
-      "photos/5-1.png?w=800&q=80",
-      "photos/5-2.png?w=800&q=80",
-      "photos/5-3.png?w=800&q=80",
-      "photos/5-4.png?w=800&q=80",
-      "photos/5-5.png?w=800&q=80",
-    ],
-    vinted_url: "https://www.vinted.pl/items/8483734163-nike-windbreaker-kurtka-bezowa-sand-xl-vintage-90s-haft-swoosh-retro",
-    added: "2026-03-25",
-    views: 0,
-  },
-  {
-    id: 6,
-    name: "4F Kurtka Softshell Narciarska Czarna Różowa M Outdoor Zimowa",
-    brand: "4F",
-    category: "kurtki",
-    size: "M",
-    style: ["sportswear", "casual", "outdoor"],
-    price: 49.0,
-    salePrice: null,
-    condition: "Bardzo dobry",
-    tags: ["vintage", "oversize", "adidas"],
-    badge: "new",
-    sold: true,
-    description: "Kurtka 4F z polarem w środku idealna jako kurtka narciarska, snowboardowa lub outdoor na chłodniejsze dni. Czarny zewnętrzny materiał z różowymi akcentami i suwakiem. Kaptur z regulacją, liczne kieszenie z zamkami.",
-    images: [
-      "photos/6-1.png?w=800&q=80",
-      "photos/6-2.png?w=800&q=80",
-      "photos/6-3.png?w=800&q=80",
-      "photos/6-4.png?w=800&q=80",
-      "photos/6-5.png?w=800&q=80",
-    ],
-    vinted_url: "https://www.vinted.pl/items/8478905543-4f-kurtka-softshell-narciarska-czarna-rozowa-m-outdoor-zimowa",
-    added: "2026-03-25",
-    views: 0,
-  },
-  {
-    id: 7,
-    name: "Hugo Boss Bluza Granatowa Haftowane XXL Logo Premium Streetwear Vintage",
-    brand: "Hugo boss",
+    name: "Hugo Boss Bluza Granatowa",
+    brand: "Hugo Boss",
     category: "bluzy",
     size: "XXL",
-    style: ["streetwear", "vintage", "workwear"],
-    price: 99.0,
-    salePrice: null,
+    price: 58.99,
+    salePrice: 99.99,
     condition: "Bardzo dobry",
-    tags: ["vintage", "oversize", "hugo boss"],
+    tags: ["vintage", "XXL", "hugo boss"],
     badge: "new",
     sold: false,
     description: "Bluza Hugo Boss z dużym trójwymiarowym haftowanym logo BOSS na przodzie premium wykończenie charakterystyczne dla tej marki. Granatowy kolor, miękka bawełna, gruba gramatura.",
     images: [
-      "photos/7-1.png?w=800&q=80",
-      "photos/7-2.png?w=800&q=80",
-      "photos/7-3.png?w=800&q=80",
-      "photos/7-4.png?w=800&q=80"
+      "photos/4-0.png?w=800&q=80",
+      "photos/4-1.jpg?w=800&q=80",
+      "photos/4-2.jpg?w=800&q=80",
+      "photos/4-3.jpg?w=800&q=80",
+      "photos/4-4.jpg?w=800&q=80",
+      "photos/4-5.jpg?w=800&q=80",
     ],
     vinted_url: "https://www.vinted.pl/items/8478923498-hugo-boss-bluza-granatowa-haftowane-xxl-logo-premium-streetwear-vintage",
     added: "2026-03-25",
-    views: 0,
+  },
+  {
+    id: 3,
+    name: "4F Kurtka Różowa",
+    brand: "4F",
+    category: "kurtki",
+    size: "XL",
+    price: 78.99,
+    salePrice: null,
+    condition: "Bardzo dobry",
+    tags: ["outdoor", "XL", "4f"],
+    badge: "hot",
+    sold: false,
+    description: "Kurtka 4F w pięknym kolorze dusty rose / łososiowy róż odcień który jest teraz bardzo modny i świetnie komponuje się z neutralnymi stylizacjami. Miękki materiał softshell lekko wiatroszczelny, przyjemny w dotyku, oddychający.",
+    images: [
+      "photos/7-0.png?w=800&q=80",
+      "photos/7-1.jpg?w=800&q=80",
+      "photos/7-2.jpg?w=800&q=80",
+      "photos/7-3.jpg?w=800&q=80",
+      "photos/7-4.jpg?w=800&q=80",
+      "photos/7-5.jpg?w=800&q=80",
+      "photos/7-6.jpg?w=800&q=80",
+    ],
+    vinted_url: "https://www.vinted.pl/items/8504188461-4f-kurtka-softshell-rozowa-xl-dusty-rose-damska-kaptur-outdoor-wiosenna-sportowa",
+    added: "2026-03-25",
+  },
+  {
+    id: 4,
+    name: "Sukienka Maxi Kwiatowa Biało-Granatowa",
+    brand: "Inne",
+    category: "inne",
+    size: "XL",
+    price: 48.99,
+    salePrice: null,
+    condition: "Bardzo dobry",
+    tags: ["outdoor", "XL", "maxi"],
+    badge: "new",
+    sold: false,
+    description: "Przepiękna sukienka maxi z motywem botanicznym w odcieniach bieli, granatu i błękitu. Trójpoziomowa spódnica, żółte przeszycia jako akcent, okrągły dekolt z rozcięciem.",
+    images: [
+      "photos/15-0.png?w=800&q=80",
+      "photos/15-1.jpg?w=800&q=80",
+      "photos/15-2.jpg?w=800&q=80",
+      "photos/15-3.jpg?w=800&q=80"
+    ],
+    vinted_url: "https://www.vinted.pl/items/8504306074-sukienka-maxi-kwiatowa-biala-granatowa-xl-wzor-botaniczny-lato-elegant",
+    added: "2026-03-25",
+  },
+  {
+    id: 5,
+    name: "Nike Air Max Bluza Szara",
+    brand: "Nike",
+    category: "bluzy",
+    size: "M",
+    price: 48.99,
+    salePrice: 59.99,
+    condition: "Bardzo dobry",
+    tags: ["streetwear", "M", "nike"],
+    badge: "new",
+    sold: false,
+    description: "Bluza Nike z haftowanym (nie drukowanym!) logo Air Max i Swoosh na piersi. Szary melanż, gruba bawełna, ściągacze na dole i rękawach. Haft zamiast nadruku = wyższa jakość i trwałość.",
+    images: [
+      "photos/8-0.png?w=800&q=80",
+      "photos/8-1.jpg?w=800&q=80",
+      "photos/8-2.jpg?w=800&q=80",
+      "photos/8-3.jpg?w=800&q=80",
+      "photos/8-4.jpg?w=800&q=80",
+      "photos/8-5.jpg?w=800&q=80"
+    ],
+    vinted_url: "https://www.vinted.pl/items/8527440421-nike-air-max-bluza-crewneck-szara-haft-swoosh-m-streetwear-vintage",
+    added: "2026-03-25",
+  },
+  {
+    id: 6,
+    name: "Adidas Koszulka Biała",
+    brand: "Adidas",
+    category: "koszulki",
+    size: "XL",
+    price: 38.99,
+    salePrice: 49.99,
+    condition: "Bardzo dobry",
+    tags: ["streetwear", "XL", "adidas"],
+    badge: "new",
+    sold: false,
+    description: "Klasyczny biały t-shirt Adidas z dużym czarnym box logo. Distressed / grunge efekt nadruku nadaje retro charakteru. Czysta bawełna, miękka w dotyku.",
+    images: [
+      "photos/12-0.png?w=800&q=80",
+      "photos/12-1.jpg?w=800&q=80",
+      "photos/12-2.jpg?w=800&q=80",
+      "photos/12-3.jpg?w=800&q=80",
+      "photos/12-4.jpg?w=800&q=80",
+    ],
+    vinted_url: "https://www.vinted.pl/items/8527511575-adidas-koszulka-t-shirt-biala-xl-box-logo-czarny-nadruk-vintage-streetwear",
+    added: "2026-03-25",
+  },
+  {
+    id: 7,
+    name: "Tommy Jeans Bluza Bordowa-Czerwona",
+    brand: "Tommy Jeans",
+    category: "bluzy",
+    size: "S",
+    price: 48.99,
+    salePrice: 59.99,
+    condition: "Bardzo dobry",
+    tags: ["streetwear", "M", "tommy jeans"],
+    badge: "new",
+    sold: false,
+    description: "Bluza z kapturem Tommy Jeans w kolorze bordowym / malinowym. Biała taśma Tommy Jeans wzdłuż rękawów, małe logo TJ na piersi. Sznurek kaptura z logo.",
+    images: [
+      "photos/11-0.png?w=800&q=80",
+      "photos/11-1.jpg?w=800&q=80",
+      "photos/11-2.jpg?w=800&q=80",
+      "photos/11-3.jpg?w=800&q=80",
+      "photos/11-4.jpg?w=800&q=80",
+      "photos/11-5.jpg?w=800&q=80",
+      "photos/11-6.jpg?w=800&q=80",
+      "photos/11-7.jpg?w=800&q=80"
+    ],
+    vinted_url: "https://www.vinted.pl/items/8527688422-tommy-jeans-hoodie-cropped-bordowa-czerwona-tasma-logo-damska-oversize",
+    added: "2026-03-25",
+  },
+  {
+    id: 8,
+    name: "Lacoste Polo Granatowa",
+    brand: "Lacoste",
+    category: "koszulki",
+    size: "XL",
+    price: 48.99,
+    salePrice: 59.99,
+    condition: "Bardzo dobry",
+    tags: ["workwear", "XL", "lacoste"],
+    badge: "new",
+    sold: false,
+    description: "Kultowa koszulka polo Lacoste z ikonicznym haftowanym krokodylem na piersi. Głęboki granat, charakterystyczny splot piqué znak rozpoznawczy marki od 1933 roku.",
+    images: [
+      "photos/17-0.png?w=800&q=80",
+      "photos/17-1.jpg?w=800&q=80",
+      "photos/17-2.jpg?w=800&q=80",
+      "photos/17-3.jpg?w=800&q=80",
+      "photos/17-4.jpg?w=800&q=80",
+    ],
+    vinted_url: "https://www.vinted.pl/items/8527823136-lacoste-polo-granatowe-krokodyl-xl-haft-klasyczne-pique-vintage-preppy",
+    added: "2026-03-25",
+  },
+  {
+    id: 9,
+    name: "Champion Track Jacket Błękitna",
+    brand: "Champion",
+    category: "bluzy",
+    size: "M",
+    price: 48.99,
+    salePrice: 99.99,
+    condition: "Bardzo dobry",
+    tags: ["streetwear", "M", "champion"],
+    badge: "new",
+    sold: false,
+    description: "Kultowa kurtka Champion w kolorze baby blue z czarnymi taśmami logo Champion na całej długości rękawów. Script logo Champion na piersi. Błyszczący materiał tracksuit typowy dla retro kolekcji Champion. Unikalna kolorystyka baby blue + czarne paski = jeden z najbardziej rozpoznawalnych wzorów marki.",
+    images: [
+      "photos/9-0.png?w=800&q=80",
+      "photos/9-1.jpg?w=800&q=80",
+      "photos/9-2.jpg?w=800&q=80",
+      "photos/9-3.jpg?w=800&q=80",
+      "photos/9-4.jpg?w=800&q=80",
+      "photos/9-5.jpg?w=800&q=80",
+      "photos/9-6.jpg?w=800&q=80",
+    ],
+    vinted_url: "https://www.vinted.pl/items/8534789422-champion-track-jacket-blekitna-tasma-logo-baby-blue-vintage-retro-streetwear",
+    added: "2026-03-25",
+  },
+  {
+    id: 10,
+    name: "Hugo Boss Koszulka Polo Czarna",
+    brand: "Hugo Boss",
+    category: "koszulki",
+    size: "S",
+    price: 38.99,
+    salePrice: 49.99,
+    condition: "Bardzo dobry",
+    tags: ["workwear", "S", "hugo boss"],
+    badge: "new",
+    sold: false,
+    description: "Koszulka polo Hugo Boss z linii Pima Cotton widoczna metka PIMA COTTON / BOSS HUGO BOSS. Pima Cotton to wyjątkowo miękka, premium bawełna egipska wyższa jakość niż standardowe polo. Czarny/granatowy kolor, kołnierzyk polo, guziki przy dekolcie.",
+    images: [
+      "photos/16-0.png?w=800&q=80",
+      "photos/16-1.jpg?w=800&q=80",
+      "photos/16-2.jpg?w=800&q=80",
+      "photos/16-3.jpg?w=800&q=80",
+      "photos/16-4.jpg?w=800&q=80",
+      "photos/16-5.jpg?w=800&q=80"
+    ],
+    vinted_url: "https://www.vinted.pl/items/8534848765-hugo-boss-polo-pima-cotton-czarne-premium-koszulka-polo-granatowa-meska",
+    added: "2026-03-25",
   }
 ];
 
 /* ══════════════════════════════════════════════════════════
    ADVANCED FILTER OPTIONS — edytuj tutaj
    ══════════════════════════════════════════════════════════ */
-const BRANDS = ["Nike", "Adidas", "Romwe", "Hugo boss", "Champion", "The North Face", "Columbia", "Ralph Lauren", "Levi's", "Tommy Hilfiger", "Carhartt", "Stüssy", "Supreme", "Patagonia"];
+const BRANDS = ["Nike", "Adidas", "Lacoste", "Hugo boss", "4F", "Champion", "The North Face", "Columbia", "Ralph Lauren", "Levi's", "Tommy Hilfiger", "Carhartt", "Stüssy", "Supreme", "Patagonia"];
 const STYLES = ["streetwear", "vintage", "y2k", "gorpcore", "workwear", "casual", "outdoor", "sportswear", "retro"];
 const SIZES  = ["XS", "S", "M", "L", "XL", "XXL", "Oversize"];
 
@@ -309,39 +375,71 @@ function starsMarkup(rating) {
 }
 
 /* ══════════════════════════════════════════════════════════
-   HERO FLOATING CARDS
+   HERO SHOWCASE SLIDESHOW
    ══════════════════════════════════════════════════════════ */
-function initHeroFloatingCards() {
-  const stack = document.getElementById("heroCardStack");
-  if (!stack) return;
-  const featured = PRODUCTS.filter(p => !p.sold && p.images[0]).slice(0, 3);
-  if (!featured.length) return;
+let showcaseIndex = 0;
+let showcaseItems = [];
+let showcaseTimer = null;
 
-  const positions = [
-    { top: "10%", left: "15%", rot: "-7deg", w: "200px", h: "270px", delay: "0s" },
-    { top: "25%", right: "5%",  rot: "6deg",  w: "175px", h: "240px", delay: "0.4s" },
-    { top: "55%", left: "5%",  rot: "3deg",  w: "160px", h: "215px", delay: "0.8s" },
-  ];
+function initHeroShowcase() {
+  const wrap = document.getElementById("heroShowcase");
+  if (!wrap) return;
 
-  featured.forEach((p, i) => {
-    const pos = positions[i];
-    const card = document.createElement("div");
-    card.className = "hero__float-card";
-    Object.assign(card.style, {
-      width: pos.w, height: pos.h,
-      top: pos.top || "auto", bottom: pos.bottom || "auto",
-      left: pos.left || "auto", right: pos.right || "auto",
-      animationDelay: pos.delay,
-    });
-    card.innerHTML = `
-      <img src="${p.images[0]}" alt="${p.name}" loading="lazy" />
-      <div class="float-card__label">
-        <div class="float-card__brand">${p.brand}</div>
-        <div class="float-card__price">${p.price} zł</div>
+  const available = PRODUCTS.filter(p => !p.sold && p.images && p.images[0]);
+  if (!available.length) {
+    const w = document.querySelector(".hero__showcase-wrap");
+    if (w) w.style.display = "none";
+    return;
+  }
+
+  const shuffled = [...available].sort(() => Math.random() - 0.5).slice(0, 5);
+  showcaseItems = shuffled;
+  wrap.innerHTML = '';
+
+  shuffled.forEach((p, i) => {
+    const slide = document.createElement("div");
+    slide.className = "showcase__slide" + (i === 0 ? " active" : "");
+    slide.dataset.id = p.id;
+    slide.innerHTML = `
+      <img class="showcase__img" src="${p.images[0]}" alt="${p.name}" loading="lazy" />
+      <div class="showcase__fade-top"></div>
+      <div class="showcase__fade-bottom"></div>
+      <div class="showcase__info">
+        <div class="showcase__brand">${p.brand}</div>
+        <div class="showcase__name">${p.name}</div>
+        <div class="showcase__price">${p.price} zł</div>
       </div>
     `;
-    stack.appendChild(card);
+    slide.addEventListener("click", () => openProductDetail(p.id));
+    wrap.appendChild(slide);
   });
+
+  const dots = document.getElementById("showcaseDots");
+  if (dots) {
+    dots.innerHTML = shuffled.map((_, i) =>
+      `<button class="showcase__dot${i === 0 ? ' active' : ''}" data-idx="${i}" aria-label="Slide ${i+1}"></button>`
+    ).join('');
+    dots.querySelectorAll(".showcase__dot").forEach(btn => {
+      btn.addEventListener("click", e => { e.stopPropagation(); goToSlide(parseInt(btn.dataset.idx)); });
+    });
+  }
+
+  startShowcaseTimer();
+}
+
+function goToSlide(idx) {
+  document.querySelectorAll(".showcase__slide").forEach((s, i) => s.classList.toggle("active", i === idx));
+  document.querySelectorAll(".showcase__dot").forEach((d, i) => d.classList.toggle("active", i === idx));
+  showcaseIndex = idx;
+  startShowcaseTimer();
+}
+
+function startShowcaseTimer() {
+  if (showcaseTimer) clearInterval(showcaseTimer);
+  if (!showcaseItems.length) return;
+  showcaseTimer = setInterval(() => {
+    goToSlide((showcaseIndex + 1) % showcaseItems.length);
+  }, 3000);
 }
 
 /* ══════════════════════════════════════════════════════════
@@ -367,8 +465,6 @@ function renderProducts() {
     card.className = "product-card";
     card.style.animationDelay = `${i * 50}ms`;
 
-    const tags = p.tags.slice(0,3).map(t => `<span class="product-card__tag">${t}</span>`).join("");
-
     card.innerHTML = `
       <div class="product-card__img-wrap">
         <img class="product-card__img" src="${p.images[0]}" alt="${p.name}" loading="lazy" />
@@ -378,7 +474,6 @@ function renderProducts() {
       <div class="product-card__info">
         <div class="product-card__cat">${p.brand} · ${p.size}</div>
         <div class="product-card__name">${p.name}</div>
-        <div class="product-card__meta">${tags}</div>
         <div class="product-card__footer">
           ${priceMarkup(p)}
           <button class="product-card__btn" data-id="${p.id}" data-action="vinted">Kup na Vinted ↗</button>
@@ -663,7 +758,7 @@ function openProductDetail(id) {
           </div>
           <div class="pdetail__meta-item">
             <span class="pdetail__meta-key">Kategoria</span>
-            <span class="pdetail__meta-val">${p.category}</span>
+            <span class="pdetail__meta-val">${p.category.charAt(0).toUpperCase() + p.category.slice(1)}</span>
           </div>
           <div class="pdetail__meta-item">
             <span class="pdetail__meta-key">Status</span>
@@ -848,7 +943,7 @@ function initStatCounters() {
    INIT
    ══════════════════════════════════════════════════════════ */
 document.addEventListener("DOMContentLoaded", () => {
-  initHeroFloatingCards();
+  initHeroShowcase()
   renderProducts();
   renderSold();
   renderReviews();
